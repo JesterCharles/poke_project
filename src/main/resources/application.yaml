@@ -12,7 +12,7 @@ spring:
 
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: ${PokeProjectDB}
+    url: ${SQLAZURECONNSTR_PokeProjectDB}
     username: ${DBUSER}
     password: ${DBPASS}
   jpa:
